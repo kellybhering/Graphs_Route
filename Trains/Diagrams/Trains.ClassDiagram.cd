@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Trains.EndingTown">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Town\EndingTown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trains.RouterBuilder">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Route\RouterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trains.RoutesFile">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>File\RoutesFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trains.RoutesVisitor">
+    <Position X="5.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAAEAAABAABAAAAAADCgAAA=</HashCode>
+      <FileName>Route\RoutesVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trains.StartingTown">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Town\StartingTown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trains.Town">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Town\Town.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

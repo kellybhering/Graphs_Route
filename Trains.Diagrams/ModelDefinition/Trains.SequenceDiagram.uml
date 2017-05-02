@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="1da25398-06e9-4d9c-854a-07b7eebf7788"
+  name="Trans.SequenceDiagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="a9d67039-a493-4d5b-a20b-154c702411dc"
+        name="TrainsSequence"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="1128c0fa-8ff4-476e-bfeb-0778e9b7054b"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="aa4e5f70-a4cd-48a3-b133-2989e533f976"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2be8bd46-8019-4fc2-bf28-bac3d4f8bfa1"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d33a2d0a-d8af-447b-95b0-c8f8fc3e05a6"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2a05ad58-f213-404f-97ae-81ee3f330525"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="556dedd0-c028-4842-89c7-002aadb6c0fe"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0933fdb0-9d2d-4339-8632-64700c4fda36"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2be8bd46-8019-4fc2-bf28-bac3d4f8bfa1"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6c655fd0-de87-41bf-9f6b-3a75ba33b7f6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2edcaae8-c64b-41d2-ae52-7b6e70041411"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d33a2d0a-d8af-447b-95b0-c8f8fc3e05a6"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c10c8505-7bde-4bd5-97e6-cc554d7e92d1"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+                LastKnownName="RoutesFile"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ec879550-f392-4758-9cdf-03043eb79003"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d896e185-ea7a-472e-8258-8dde056a8261"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="255e6475-e914-40d2-9fde-4495b59e5aea"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1ea4372b-2ce2-44b1-9629-7fcc5a09b617"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d896e185-ea7a-472e-8258-8dde056a8261"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6d831b26-59c2-4b7e-8516-0b596e22bbd2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+                LastKnownName="RoutesFile"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2a05ad58-f213-404f-97ae-81ee3f330525"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="255e6475-e914-40d2-9fde-4495b59e5aea"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+                LastKnownName="RoutesFile"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="556dedd0-c028-4842-89c7-002aadb6c0fe"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1ea4372b-2ce2-44b1-9629-7fcc5a09b617"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+                LastKnownName="RoutesFile"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ec879550-f392-4758-9cdf-03043eb79003"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="57ed6759-72f6-48ba-ab32-a073dd3e66d1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+                LastKnownName="RoutesFile"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0933fdb0-9d2d-4339-8632-64700c4fda36"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bfb2b9b8-819b-4e88-845b-bb228cbf5a8a"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="aa4e5f70-a4cd-48a3-b133-2989e533f976"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8d3ff40f-ab68-4e9a-b386-9a7846dca2e1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="673a931d-e847-45ea-9744-924d9aea4f16"
+                LastKnownName="RouterBuilder"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="85482b4f-be6a-4a65-aaed-2f65642951df"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="80336881-3119-4d29-a741-42e00f753f6a"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b615dc5b-b409-448f-ad3b-ec243f93287e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a281e2fc-0b88-44a0-b537-37f1266b839d"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d005c4fb-8537-4a1d-a4b1-d72e61970bdb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b615dc5b-b409-448f-ad3b-ec243f93287e"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5632a620-e4ed-435d-a927-563bf21b87d6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a281e2fc-0b88-44a0-b537-37f1266b839d"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b03ec430-aa62-42c0-8d7b-26729b1ae654"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d005c4fb-8537-4a1d-a4b1-d72e61970bdb"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9de864f2-83f4-49a6-be43-402bb8446569"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="80336881-3119-4d29-a741-42e00f753f6a"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0f3f2afe-ea55-4381-b734-b54b4e321efe"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="130d33d0-961d-419e-910a-306e2994e431"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f986f6a1-e45d-4958-b0a9-937d252cefa6"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="703920c5-4b3d-4fb1-a279-19d473b2eccb"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="36b18551-e223-4161-a090-e4ab7ae49a1b"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f685ed75-a4ec-4149-b735-3145f21aee33"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="703920c5-4b3d-4fb1-a279-19d473b2eccb"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="617fbd3b-8035-409a-839b-f6a51aad8d76"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5c4f1588-8422-47b0-8436-ce71012907d6"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="36b18551-e223-4161-a090-e4ab7ae49a1b"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f685ed75-a4ec-4149-b735-3145f21aee33"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a4a98cba-6ba9-4cdb-b43e-9950de4cdae0"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f986f6a1-e45d-4958-b0a9-937d252cefa6"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3da24ee8-18ce-4aed-a702-0529b3f81d28"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c5f1bb13-6f17-4b25-8ab9-a6d7e76a8664"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="75f2f981-c93b-4bbc-bfb0-9b8c62396543"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="967c6871-b6d1-4c4d-9fb6-2b9b400a93c3"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7b67348-40b2-44a3-98fc-4e55c130c67a"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0ce84360-5548-4574-a97e-2c7390ce6c56"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="967c6871-b6d1-4c4d-9fb6-2b9b400a93c3"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cdeb8bd1-4497-47a1-a8a0-d482135d20ab"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f7b67348-40b2-44a3-98fc-4e55c130c67a"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9c5f8e82-dfc0-4174-bc78-133e98cd802e"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0ce84360-5548-4574-a97e-2c7390ce6c56"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0df1e86f-2af5-47b4-9e7d-175792672ee5"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="75f2f981-c93b-4bbc-bfb0-9b8c62396543"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="44d41dea-2810-4d27-a123-699a96eee43f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="dddb8c3f-c374-4501-b547-b84f6676a5ba"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="013838fe-f548-4e34-b17e-aa680f6bb896"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0906d4ea-4225-4d9f-b90a-92c8fe413fa7"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="02e2c283-93e4-4b89-926e-ef5abd6186c8"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e931b7fe-1534-4ddb-ac42-5d3bd2cc05f5"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0906d4ea-4225-4d9f-b90a-92c8fe413fa7"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9e9175a7-4408-46af-8973-d19f07d71dad"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="716e09c0-3ae4-4b8c-8dca-6f600aff4aee"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="02e2c283-93e4-4b89-926e-ef5abd6186c8"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e931b7fe-1534-4ddb-ac42-5d3bd2cc05f5"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="69ffd03d-f9cd-4ebf-ad91-e965f008bcf8"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+                LastKnownName="Program"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="013838fe-f548-4e34-b17e-aa680f6bb896"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="930b9fa1-9648-4c50-a77a-f137507d1aac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Trains.SequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+                LastKnownName="RoutesVisitor"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="49b9592c-a9ab-4836-9b5f-e1db42d4c5a8"
+            name="Program"
+            isActor="false"
+            lifelineDisplayName="Program">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2edcaae8-c64b-41d2-ae52-7b6e70041411"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bfb2b9b8-819b-4e88-845b-bb228cbf5a8a"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b03ec430-aa62-42c0-8d7b-26729b1ae654"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9de864f2-83f4-49a6-be43-402bb8446569"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5c4f1588-8422-47b0-8436-ce71012907d6"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a4a98cba-6ba9-4cdb-b43e-9950de4cdae0"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9c5f8e82-dfc0-4174-bc78-133e98cd802e"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0df1e86f-2af5-47b4-9e7d-175792672ee5"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="716e09c0-3ae4-4b8c-8dca-6f600aff4aee"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="69ffd03d-f9cd-4ebf-ad91-e965f008bcf8"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="673a931d-e847-45ea-9744-924d9aea4f16"
+            name="RouterBuilder"
+            isActor="false"
+            lifelineDisplayName="RouterBuilder">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="2be8bd46-8019-4fc2-bf28-bac3d4f8bfa1"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="aa4e5f70-a4cd-48a3-b133-2989e533f976"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="5e927f02-04bc-44ad-a47d-846348f9586c"
+            name="RoutesFile"
+            isActor="false"
+            lifelineDisplayName="RoutesFile">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d896e185-ea7a-472e-8258-8dde056a8261"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ec879550-f392-4758-9cdf-03043eb79003"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="12c8c694-2939-46ff-b3a7-060cb4705477"
+            name="RoutesVisitor"
+            isActor="false"
+            lifelineDisplayName="RoutesVisitor">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b615dc5b-b409-448f-ad3b-ec243f93287e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="80336881-3119-4d29-a741-42e00f753f6a"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="703920c5-4b3d-4fb1-a279-19d473b2eccb"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f986f6a1-e45d-4958-b0a9-937d252cefa6"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="967c6871-b6d1-4c4d-9fb6-2b9b400a93c3"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="75f2f981-c93b-4bbc-bfb0-9b8c62396543"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0906d4ea-4225-4d9f-b90a-92c8fe413fa7"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="013838fe-f548-4e34-b17e-aa680f6bb896"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="050b9812-b72f-4983-97a2-9a9458b6e70c"
+            name="Build()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2edcaae8-c64b-41d2-ae52-7b6e70041411"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d33a2d0a-d8af-447b-95b0-c8f8fc3e05a6"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="559736e3-80ea-46d8-9028-dc77c3bce898"
+            name="GetGraphElements()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2a05ad58-f213-404f-97ae-81ee3f330525"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="255e6475-e914-40d2-9fde-4495b59e5aea"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6100de90-8951-4bb9-bd4a-04fa6895fdc5"
+            name="&lt;&lt;string[]&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ea4372b-2ce2-44b1-9629-7fcc5a09b617"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="556dedd0-c028-4842-89c7-002aadb6c0fe"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5956f039-d38d-4804-9a1f-d91879ed3256"
+            name="&lt;&lt;List&lt;StartingTown&gt;&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0933fdb0-9d2d-4339-8632-64700c4fda36"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bfb2b9b8-819b-4e88-845b-bb228cbf5a8a"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e431d2ef-b5fe-464d-96da-3885bac73919"
+            name="SumRouteDistance(routes, townsFrom )"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b03ec430-aa62-42c0-8d7b-26729b1ae654"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a281e2fc-0b88-44a0-b537-37f1266b839d"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ee5b95bf-691c-4778-95d4-ea8851a9c7f5"
+            name="&lt;&lt;Tuple&lt;result, message&gt;&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d005c4fb-8537-4a1d-a4b1-d72e61970bdb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9de864f2-83f4-49a6-be43-402bb8446569"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a6b1eaf0-8bfe-449b-abe6-1f21a8614ba5"
+            name="CountMaxStopRoutes(townsFrom, townFromName, townToName, exactMaxStop, maxStop )"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5c4f1588-8422-47b0-8436-ce71012907d6"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="36b18551-e223-4161-a090-e4ab7ae49a1b"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8f8acacd-4a27-47c1-8cdb-cf6464d43827"
+            name="&lt;&lt;int&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f685ed75-a4ec-4149-b735-3145f21aee33"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a4a98cba-6ba9-4cdb-b43e-9950de4cdae0"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="42b255e2-588d-402c-9f39-24bb673f5ecf"
+            name="GetShortestRouteDistance(townsFrom, townFromName, townToName)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9c5f8e82-dfc0-4174-bc78-133e98cd802e"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7b67348-40b2-44a3-98fc-4e55c130c67a"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4ce805d6-c5ea-4a1e-b734-c6816fa654f9"
+            name="&lt;&lt;int&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0ce84360-5548-4574-a97e-2c7390ce6c56"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0df1e86f-2af5-47b4-9e7d-175792672ee5"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="627e9c37-bb37-47d1-a932-2092a2c550ed"
+            name="CountMaxDistanceRoutes(townsFrom, townFromName, townToName, maxDistance)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="716e09c0-3ae4-4b8c-8dca-6f600aff4aee"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="02e2c283-93e4-4b89-926e-ef5abd6186c8"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e98db9f8-3073-4e9e-8c18-7e1af1ab1ff5"
+            name="&lt;&lt;int&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e931b7fe-1534-4ddb-ac42-5d3bd2cc05f5"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="69ffd03d-f9cd-4ebf-ad91-e965f008bcf8"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Trains.SequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6c655fd0-de87-41bf-9f6b-3a75ba33b7f6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8d3ff40f-ab68-4e9a-b386-9a7846dca2e1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6d831b26-59c2-4b7e-8516-0b596e22bbd2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="57ed6759-72f6-48ba-ab32-a073dd3e66d1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5632a620-e4ed-435d-a927-563bf21b87d6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0f3f2afe-ea55-4381-b734-b54b4e321efe"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="617fbd3b-8035-409a-839b-f6a51aad8d76"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3da24ee8-18ce-4aed-a702-0529b3f81d28"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cdeb8bd1-4497-47a1-a8a0-d482135d20ab"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="44d41dea-2810-4d27-a123-699a96eee43f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9e9175a7-4408-46af-8973-d19f07d71dad"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="930b9fa1-9648-4c50-a77a-f137507d1aac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="60e0e961-4f2f-47a7-a9df-1ff863d65de8"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8d0cca48-9521-4194-85b5-9a2af2262754"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="Calculate distance between routes"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4a9d5c6a-3698-4c1a-b08b-f67a79372858"
+              LastKnownName="Calculate distance between routes"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ca8c0b4-d4e2-4a9b-9c06-cec4bd08b1c6"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e705ef4-0000-46e2-a853-36421a577719"
+                  name="Calculate distance between routes"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ae91bf8e-9234-45f5-95e7-c96a4f06ff58"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="Count routes with max stop"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="81f4802d-1a88-499e-a102-036166726b6e"
+              LastKnownName="Count routes with max stop"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b844071d-b44e-443a-9eca-82021735a8b6"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba6019f8-3b15-4691-808d-dcb372b6c511"
+                  name="Count routes with max stop"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="810f286f-8c2e-490c-9b69-38db3c1440d4"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="Get shortest route distance"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bfef5c1b-84f6-4ab5-a084-b9a9c19fb13f"
+              LastKnownName="Get shortest route distance"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4fcd49d0-df88-4a74-bb54-2d7084e20664"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95396799-b323-434d-bdfc-094e0f3663a9"
+                  name="Get shortest route distance"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8995ae4d-8885-4386-8b49-d059b56ca418"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="Count routes with max distance"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="187f9171-d322-46e7-a1cc-fb3ec5ac61ec"
+              LastKnownName="Count routes with max distance"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ac9fdea1-0b6b-4c30-95b9-aa72399c0451"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97ca2692-9502-4855-bada-1dcc35192cb3"
+                  name="Count routes with max distance"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ac51fb2c-74cd-4918-968c-0977e9e3194b"
+        name="Read Input File"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd"
+        name="Build Graph Routes"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="2b017162-6069-48b5-ae21-bff7c0b16d6c">
+            <useCaseMoniker
+              Id="ac51fb2c-74cd-4918-968c-0977e9e3194b"
+              LastKnownName="Read Input File"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4a9d5c6a-3698-4c1a-b08b-f67a79372858"
+        name="Calculate distance between routes"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="3cd75d79-6e3a-4f48-a3aa-d86abf5f5b90">
+            <useCaseMoniker
+              Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd"
+              LastKnownName="Build Graph Routes"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="81f4802d-1a88-499e-a102-036166726b6e"
+        name="Count routes with max stop"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="348db528-6d3f-46ba-b604-0367b232fa5f">
+            <useCaseMoniker
+              Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd"
+              LastKnownName="Build Graph Routes"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bfef5c1b-84f6-4ab5-a084-b9a9c19fb13f"
+        name="Get shortest route distance"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="d0f03168-3972-48ad-a1d9-8e33b6c3ce6f">
+            <useCaseMoniker
+              Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd"
+              LastKnownName="Build Graph Routes"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="187f9171-d322-46e7-a1cc-fb3ec5ac61ec"
+        name="Count routes with max distance"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="09c8d49d-3de2-4e89-9010-7191bf9726be">
+            <useCaseMoniker
+              Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd"
+              LastKnownName="Build Graph Routes"
+              LastKnownLocation="Trains.SequenceDiagram.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

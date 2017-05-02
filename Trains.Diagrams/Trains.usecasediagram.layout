@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Trains">
+  <useCaseModelRootMoniker Id="5f007d7a-6fd4-404b-a8d6-ee1c8d6fc455" />
+  <nestedChildShapes>
+    <actorShape Id="9e725084-9965-4776-abc2-9ed909bfdd5a" absoluteBounds="1.125, 3.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="812614a4-3b8d-48d9-9d16-1cafbc20a471" LastKnownName="Program" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="26b21b6b-6ce4-472f-a30e-46d4eca1ed02" absoluteBounds="5.625, 5.375, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="77fd09fb-6bb5-4912-84e2-3fd8588c768b" LastKnownName="Read Input File" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" absoluteBounds="5.5, 4, 1.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="d3733c55-4973-418b-8858-9feac002f2aa" LastKnownName="Build Graph Routes" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(6.32386252511423 : 4.49997555251314); (6.3636376677778 : 5.37502869111159)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="3d157441-b55f-4c20-b7e6-4abfd9f32798" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" />
+        <useCaseShapeMoniker Id="26b21b6b-6ce4-472f-a30e-46d4eca1ed02" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="03b5aefc-07b3-4fb7-8fee-c24a503f4d24" absoluteBounds="2.5, 1.875, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="fe089b4d-9cc3-4b10-9b77-bdee70b6023d" LastKnownName="Calculate distance between routes" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.67992587299614 : 2.61780404125761); (5.951307722986 : 4.02606078825132)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="707c900e-c7e8-4323-880c-bbc175754142" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="03b5aefc-07b3-4fb7-8fee-c24a503f4d24" />
+        <useCaseShapeMoniker Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" />
+      </nodes>
+    </includeConnector>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 3.44396551724138); (2.73367120718653 : 2.64113464307182)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="3363ef85-8a23-4d03-9564-03fdb1acef95" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9e725084-9965-4776-abc2-9ed909bfdd5a" />
+        <useCaseShapeMoniker Id="03b5aefc-07b3-4fb7-8fee-c24a503f4d24" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="e0bb5cc3-564c-4549-88ec-be3cbf2367e6" absoluteBounds="2.5, 3.125, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="024d1c42-0863-4dfe-bcfb-d0552fdc8c8a" LastKnownName="Count routes with max stop" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.83726616220428 : 3.70544855568494); (5.65156491742553 : 4.10459428183362)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="618f3625-43bf-4d25-8968-a99aba9a291a" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e0bb5cc3-564c-4549-88ec-be3cbf2367e6" />
+        <useCaseShapeMoniker Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" />
+      </nodes>
+    </includeConnector>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 3.61637931034483); (2.50100711922786 : 3.58617216830249)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="134108d8-6cf6-45b1-8fa1-0be8ee222023" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9e725084-9965-4776-abc2-9ed909bfdd5a" />
+        <useCaseShapeMoniker Id="e0bb5cc3-564c-4549-88ec-be3cbf2367e6" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="b923451c-2b38-4204-addf-a16b12334f13" absoluteBounds="2.5, 4.5, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="1a35b49e-8286-470f-9640-3a1def39dae2" LastKnownName="Get shortest route distance" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.83726616220428 : 4.79455144431506); (5.65156491742553 : 4.39540571816638)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="0167dbaa-e1ad-470e-a25a-24bc3c82b30c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="b923451c-2b38-4204-addf-a16b12334f13" />
+        <useCaseShapeMoniker Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" />
+      </nodes>
+    </includeConnector>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 3.80603448275862); (2.73367120718653 : 4.60886535692818)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="1c9a7df0-bd9c-4e30-80e1-563962f84858" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9e725084-9965-4776-abc2-9ed909bfdd5a" />
+        <useCaseShapeMoniker Id="b923451c-2b38-4204-addf-a16b12334f13" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="06d12605-aa3f-4d39-b454-966dfaa54a1f" absoluteBounds="2.5, 5.875, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2769893d-6924-408f-96b2-660ae1ab9100" LastKnownName="Count routes with max distance" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.66469297253858 : 5.99755263812454); (5.96918750180313 : 4.47658624880994)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="0743da21-ad8b-4544-b7a6-c0d82594481f" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="06d12605-aa3f-4d39-b454-966dfaa54a1f" />
+        <useCaseShapeMoniker Id="dabf4c11-25db-4620-8928-37c9a1bbf9cd" />
+      </nodes>
+    </includeConnector>
+    <useCaseAssociationConnector edgePoints="[(1.54360465116279 : 3.875); (2.91635811332922 : 5.91046203010885)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2f810560-33aa-4b54-ab0b-b3bc1a5f64a8" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="9e725084-9965-4776-abc2-9ed909bfdd5a" />
+        <useCaseShapeMoniker Id="06d12605-aa3f-4d39-b454-966dfaa54a1f" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

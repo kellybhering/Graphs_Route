@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5f007d7a-6fd4-404b-a8d6-ee1c8d6fc455" name="Trains" linkedPackageId="173f2281-2cea-420b-8aec-20f465d7e10d" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="c295a5dc-bed7-4f00-ad98-119f24786c7d">
+      <profileInstance Id="ea10b8a5-6553-4bb9-ba9c-7d6c215d988b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8c26b109-af44-4858-9c72-7ecfa17168d0">
+      <profileInstance Id="a4a14f3d-6042-4fe6-8b3a-42b955f04b3f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="812614a4-3b8d-48d9-9d16-1cafbc20a471" name="Program" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="60e0e961-4f2f-47a7-a9df-1ff863d65de8" />
+        <targetEnds>
+          <association Id="3363ef85-8a23-4d03-9564-03fdb1acef95" isDerived="false" sourceEndRoleName="Program" targetEndRoleName="Calculate distance between routes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fe089b4d-9cc3-4b10-9b77-bdee70b6023d" LastKnownName="Calculate distance between routes" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8c0b26b1-b1f4-4500-877c-0f495fccdd02" name="Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9ca8c0b4-d4e2-4a9b-9c06-cec4bd08b1c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20679210-7cbc-49e1-acbc-d78e016a1e3a" name="Calculate distance between routes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2e705ef4-0000-46e2-a853-36421a577719" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8d0cca48-9521-4194-85b5-9a2af2262754" />
+          </association>
+          <association Id="134108d8-6cf6-45b1-8fa1-0be8ee222023" isDerived="false" sourceEndRoleName="Program" targetEndRoleName="Count routes with max stop" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="024d1c42-0863-4dfe-bcfb-d0552fdc8c8a" LastKnownName="Count routes with max stop" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3fe28a47-6c6a-4e44-9e82-24bb2a7d5a86" name="Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b844071d-b44e-443a-9eca-82021735a8b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="292f4279-018e-476c-8646-75e72be70b29" name="Count routes with max stop" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba6019f8-3b15-4691-808d-dcb372b6c511" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ae91bf8e-9234-45f5-95e7-c96a4f06ff58" />
+          </association>
+          <association Id="1c9a7df0-bd9c-4e30-80e1-563962f84858" isDerived="false" sourceEndRoleName="Program" targetEndRoleName="Get shortest route distance" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1a35b49e-8286-470f-9640-3a1def39dae2" LastKnownName="Get shortest route distance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="785a3515-1cf4-4137-8a65-6e778c5549ec" name="Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4fcd49d0-df88-4a74-bb54-2d7084e20664" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="416caa5d-76c5-4a01-9e08-965804892d5d" name="Get shortest route distance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="95396799-b323-434d-bdfc-094e0f3663a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="810f286f-8c2e-490c-9b69-38db3c1440d4" />
+          </association>
+          <association Id="2f810560-33aa-4b54-ab0b-b3bc1a5f64a8" isDerived="false" sourceEndRoleName="Program" targetEndRoleName="Count routes with max distance" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2769893d-6924-408f-96b2-660ae1ab9100" LastKnownName="Count routes with max distance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c845be5a-c7c4-4dbd-b6d7-49f171d7bf1f" name="Program" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ac9fdea1-0b6b-4c30-95b9-aa72399c0451" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acd094d6-731d-44a7-80ac-fa8784c1f57e" name="Count routes with max distance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="97ca2692-9502-4855-bada-1dcc35192cb3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8995ae4d-8885-4386-8b49-d059b56ca418" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="77fd09fb-6bb5-4912-84e2-3fd8588c768b" name="Read Input File" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac51fb2c-74cd-4918-968c-0977e9e3194b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d3733c55-4973-418b-8858-9feac002f2aa" name="Build Graph Routes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43c02c73-1656-439b-8b01-ed4dcae0f2bd" />
+        <additions>
+          <include Id="3d157441-b55f-4c20-b7e6-4abfd9f32798">
+            <useCaseMoniker Id="77fd09fb-6bb5-4912-84e2-3fd8588c768b" LastKnownName="Read Input File" />
+            <elementDefinition Id="2b017162-6069-48b5-ae21-bff7c0b16d6c" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fe089b4d-9cc3-4b10-9b77-bdee70b6023d" name="Calculate distance between routes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4a9d5c6a-3698-4c1a-b08b-f67a79372858" />
+        <additions>
+          <include Id="707c900e-c7e8-4323-880c-bbc175754142">
+            <useCaseMoniker Id="d3733c55-4973-418b-8858-9feac002f2aa" LastKnownName="Build Graph Routes" />
+            <elementDefinition Id="3cd75d79-6e3a-4f48-a3aa-d86abf5f5b90" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="024d1c42-0863-4dfe-bcfb-d0552fdc8c8a" name="Count routes with max stop" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81f4802d-1a88-499e-a102-036166726b6e" />
+        <additions>
+          <include Id="618f3625-43bf-4d25-8968-a99aba9a291a">
+            <useCaseMoniker Id="d3733c55-4973-418b-8858-9feac002f2aa" LastKnownName="Build Graph Routes" />
+            <elementDefinition Id="348db528-6d3f-46ba-b604-0367b232fa5f" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1a35b49e-8286-470f-9640-3a1def39dae2" name="Get shortest route distance" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bfef5c1b-84f6-4ab5-a084-b9a9c19fb13f" />
+        <additions>
+          <include Id="0167dbaa-e1ad-470e-a25a-24bc3c82b30c">
+            <useCaseMoniker Id="d3733c55-4973-418b-8858-9feac002f2aa" LastKnownName="Build Graph Routes" />
+            <elementDefinition Id="d0f03168-3972-48ad-a1d9-8e33b6c3ce6f" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2769893d-6924-408f-96b2-660ae1ab9100" name="Count routes with max distance" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="187f9171-d322-46e7-a1cc-fb3ec5ac61ec" />
+        <additions>
+          <include Id="0743da21-ad8b-4544-b7a6-c0d82594481f">
+            <useCaseMoniker Id="d3733c55-4973-418b-8858-9feac002f2aa" LastKnownName="Build Graph Routes" />
+            <elementDefinition Id="09c8d49d-3de2-4e89-9010-7191bf9726be" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="173f2281-2cea-420b-8aec-20f465d7e10d" name="Trans.SequenceDiagram">
+    <elementDefinition Id="1da25398-06e9-4d9c-854a-07b7eebf7788" />
+  </package>
+</useCaseModelRoot>
